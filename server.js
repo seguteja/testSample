@@ -6,6 +6,6 @@ app.get('/',async(req,res)=>{
     res.send("Successfully deployed for second time")
 });
 
-app.listen(8081,()=>{
+app.listen(8080,()=>{
     console.log("server started")
 })
